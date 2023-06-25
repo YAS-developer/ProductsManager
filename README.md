@@ -4,9 +4,11 @@ Si vous ne pouvez pas exécuter le projet avec le makefile, vous pouvez vous ren
 
 Exécution avec Makefile :
 
+
+
 J'ai pu créer un fichier Make permettant d'exécuter les projets :
 
-- Assurez-vous d'avoir Make installé sur votre machine.
+- Assurez-vous d'avoir Make installé sur votre machine ainsi que les packages node_modules installés..
 
 exécuter le projet Node.js: 
 - utilisez la commande suivante : "make node".
@@ -24,11 +26,14 @@ J'ai mis en place un système de jetons (JWT) avec un système de connexion pour
 
 Les mots de passe des utilisateurs sont stockés avec bcrypt.
 
+Je vous ai mis à disposition un fichier Postman pour tester les différentes requêtes.
+
 De plus, j'ai déployé l'API sur ce référentiel Heroku : https://git.heroku.com/radiant-citadel-49516.git. Malheureusement, les serveurs Heroku sont devenus payants.
 
 Pour exécuter l'API :
 
 - Rendez-vous dans le répertoire "lesbonsartisants-api".
+- exécutez la commande "npm install"
 - Ensuite, exécutez la commande "npm start".
 - Bonnes requêtes ! :)
 
@@ -45,5 +50,6 @@ Vous pourrez y jeter un œil dans le dossier src/services/.
 Pour exécuter le projet :
 
 - Rendez-vous dans le répertoire "lesbonsartisants-react".
+- exécutez la commande "npm install"
 - Ensuite, exécutez la commande "npm start".
 - Bonne navigation ! :)
