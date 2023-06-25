@@ -1,42 +1,49 @@
 Bonjour,
 
-Si vous ne pouvez pas executez avec le makefile rendez-vous sur Node.js/Express et ReactJS
+Si vous ne pouvez pas exécuter le projet avec le makefile, vous pouvez vous rendre sur Node.js/Express et ReactJS.
 
-execution avec un make : 
-    J'ai pu creer un fichier make permettant d'executer les projets :
+Exécution avec Makefile :
 
-    - Assurez-vous d'avoir make installé sur votre machine.
+J'ai pu créer un fichier Make permettant d'exécuter les projets :
 
-    executer le projet nodejs : 
-        - exécutez la commande "make node".
+- Assurez-vous d'avoir Make installé sur votre machine.
 
-    executer le projet nodejs : 
-        - exécutez la commande "make node".
+exécuter le projet Node.js: 
+- utilisez la commande suivante : "make node".
+
+exécuter le projet ReactJS: 
+- utilisez la commande suivante : "make react".
+
 
 
 Node.js/Express :
-    l'API est terminée. J'ai mis en place un système de tokens (jwt) avec un système de connexion permettant une authentification  pour utiliser les différentes requêtes HTTP. Les mots de passe des utilisateurs sont stockés avec bcrypt.
 
-    Par ailleurs, j'ai pu déployer l'API sur ce repository heroku: https://git.heroku.com/radiant-citadel-49516.git. 
-    Malheureusement les serveurs Heroku sont devenus payants.
+L'API est terminée. 
 
-    Pour exécuter l'API :
+J'ai mis en place un système de jetons (JWT) avec un système de connexion pour l'authentification et l'utilisation des requêtes HTTP des produits. 
 
-    - Rendez-vous sur le repertoire : lesbonsartisants-api
+Les mots de passe des utilisateurs sont stockés avec bcrypt.
 
-    - Ensuite, exécutez la commande "npm start".
+De plus, j'ai déployé l'API sur ce référentiel Heroku : https://git.heroku.com/radiant-citadel-49516.git. Malheureusement, les serveurs Heroku sont devenus payants.
 
-    - Bonnes requêtes ! :)
+Pour exécuter l'API :
 
+- Rendez-vous dans le répertoire "lesbonsartisants-api".
+- Ensuite, exécutez la commande "npm start".
+- Bonnes requêtes ! :)
 
-ReactJS : 
-    Differents de ce que j'ai pu faire en Angular, mais le principe reste le meme avec les components. J'ai vraiment aime react, des nouveaux concepts super interessants que j'ai pu apprendre, et que je compte approfondir.
+ReactJS :
 
-    J'ai pu mettre en place un systeme d'affichage. Malheuresement ce dernier n'est pas relier a l'API par manque de temps. Cependant le service pour la liaison a l'API est present vous pourrez y jeter un oeil dans le src/services/
+C'est différent de ce que j'ai pu faire avec Angular, mais le principe reste le même avec les composants. 
 
-    executez le projet : 
-                - Rendez-vous sur le repertoire : lesbonsartisants-react
-                
-                - Ensuite, exécutez la commande "npm start".
+J'ai vraiment aimé React, avec de nouveaux concepts super intéressants que j'ai pu apprendre et que je compte approfondir.
 
-                - Bonne navigation ! :)
+J'ai mis en place un système d'affichage dans le projet ReactJS. Malheureusement, il n'est pas relié à l'API par manque de temps. Cependant, le service de liaison à l'API est présent.
+
+Vous pourrez y jeter un œil dans le dossier src/services/.
+
+Pour exécuter le projet :
+
+- Rendez-vous dans le répertoire "lesbonsartisants-react".
+- Ensuite, exécutez la commande "npm start".
+- Bonne navigation ! :)
