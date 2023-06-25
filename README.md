@@ -8,7 +8,7 @@ Exécution avec Makefile :
 
 J'ai pu créer un fichier Make permettant d'exécuter les projets :
 
-- Assurez-vous d'avoir Make installé sur votre machine.
+- Assurez-vous d'avoir Make installé sur votre machine ainsi que les packages node_modules installés..
 
 exécuter le projet Node.js: 
 - utilisez la commande suivante : "make node".
